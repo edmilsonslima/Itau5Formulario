@@ -1,0 +1,96 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+header {
+	background: blue;/*#BBBBBB;*/
+	padding: 30px 0;
+	text-align: center;
+	font-size: 28px;
+}
+
+footer {
+	text-align: center;
+	
+	padding: 10px 0;
+	background: blue;
+}
+
+
+
+main {
+	width: 940px;
+	margin: 0 auto;
+}
+
+form {
+	margin: 40px 0;
+}
+
+
+
+form label, form legend , form select,form fieldset{
+	display:block;
+	font-size: 20px;
+	margin: 0 0 10px;
+}
+ form select{
+	 padding: 10px 25px;
+	 font-size: 10px;
+ }
+
+.input-padrao {
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 25px;
+	width: 50%;
+}
+
+.input-fieldset {
+	display: block;
+	margin: 0 0 20px;
+
+	width: 50%;
+}
+.input-fieldset-radio {
+	display: flex;
+	margin: 0 0 20px;
+	width: 50%;
+}
+
+
+.input-dinamico {
+	display:inline;
+	margin: 0 0 20px;
+	padding: 10px 25px;
+	width: 30%;
+}
+
+
+.enviar {
+	width:40%;
+	padding: 15px 0;
+	background: blue;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	transition: 1s all;
+	cursor: pointer;
+}
+
+.radio
+{
+
+}
+.enviar:hover {
+	background: darkblue;
+	transform: scale(1.2);
+}
+
+table {
+	margin: 20px 0 40px;
+}
+
+
